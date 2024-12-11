@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.section-header{
+    background-image: url('../img/Hero.png');
+    background-size: cover;
+    background-position: center;
+    text-transform: uppercase;
+}
+
+.nav-bar{
+    background-color: #4a545c;
+    opacity: 0.8;
+}
+
+.wrapper{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.letterE{
+    color: #4bcaff
+}
+
+.citaat{
+    padding: 160px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: bold;
+    color: white;
+}
+
+.citaat h3{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: 215%;
+    margin: 5px;
+    color: white;
+    background-color: #4a545c;
+    opacity: 0.8;
+}
+
+nav a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+nav{
+    padding: 20px;
+    margin: 20px;
+}
+
+a:hover{
+    color: #4bcaff;
+    border: 3px solid #4bcaff;
+}
+
+.services{
+    background-color: #4bcaff;
+}
+
+img{
+    margin-bottom: 10px;
+}
+
+.services h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+    color: white;
+}
+
+.underline {
+    text-decoration: underline 1.5px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}  
+
+.service-boxes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-box{
+    margin: 20px;
+    padding: 20px;
+}
+
+.service-box p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 15px;
+}
+
+.service-box h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-transform: uppercase;
+}
+
+.section-testionials h2{
+    color: black;
+}
+
+.section-testionials p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding: 30px;
+}
+
+.section-testionials{
+    background-color: white;
+}
